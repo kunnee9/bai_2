@@ -32,7 +32,7 @@ body {
 }
 
 .avatar {
-    background-image: url('../icon.png');
+    background-image: url('icon.png');
     display: inline-block;
     background-size: cover;
     background-position: center;
