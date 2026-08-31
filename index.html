@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 2</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font chữ Inter chuẩn UI/UX hiện đại -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="login-card">
+        <!-- Logo/Header Admin -->
+        <div class="login-header">
+            <div class="avatar" src="" alt=""></div>
+            <h2>Hệ Thống Điện Lực</h2>
+            <p>Đăng nhập hệ thống quản trị</p>
+        </div>
+
+        <!-- Form Đăng nhập -->
+        <form class="login-form">
+            <!-- Ô nhập Tên đăng nhập / Email -->
+            <div class="input-group">
+                <label for="username">Tên đăng nhập hoặc Email</label>
+                <input type="text" id="username" placeholder="Nhap email vao day" required autocomplete="off">
+            </div>
+
+            <!-- Ô nhập Mật khẩu -->
+            <div class="input-group">
+                <label for="password">Mật khẩu</label>
+                <input type="password" id="password" placeholder="" required>
+            </div>
+
+            <!-- Tùy chọn Ghi nhớ & Quên mật khẩu -->
+            <div class="form-options">
+                <label class="remember-me">
+                    <input type="checkbox">
+                    <span>Ghi nhớ phiên</span>
+                </label>
+                <a href="#" class="forgot-pass">Quên mật khẩu?</a>
+            </div>
+
+            <!-- Nút Đăng nhập -->
+            <button type="submit" class="btn-login">Đăng Nhập</button>
+            <div class="register-footer">
+                <p><a href="#">Đăng ký tại đây</a></p>
+            </div>
+        </form>
+
+        <!-- Footer thẻ card -->
+        <div class="login-footer">
+            <p>Hệ thống nội bộ &bull; Bảo mật 256-bit SSL</p>
+        </div>
+    </div>
+
+</body>
+</html>
